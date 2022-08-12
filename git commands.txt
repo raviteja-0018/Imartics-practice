@@ -1,0 +1,19 @@
+cd /drivename eg: /e
+ls
+
+goto project folder:
+
+ls
+cd foldername/
+
+git config --global user.name "raviteja189"
+git config --global user.email "draviteja18@gmail.com"
+
+git init
+git add .
+
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/raviteja189/TechBlog.git
+git push -u origin main
